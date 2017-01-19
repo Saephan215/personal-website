@@ -1,0 +1,146 @@
+.bg-image-1 {
+
+	background-image: url("../images/professional-splash.jpg");
+	position: static;
+	height: 100%;
+	width: 100%;
+	background-size: 100% 100%;
+	overflow: hidden;
+	z-index: -1;
+	background-repeat: no-repeat;
+
+}
+
+.bg-image-2 {
+
+	background-image: url("../images/projects-banner.jpg");
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background-size: 100% 100%;
+	overflow: hidden;
+	z-index: -1;
+	background-repeat: no-repeat;
+
+}
+
+.bg-image-3 {
+
+	background-image: url("../images/technologies-banner.jpg");
+	position: relative;
+	background-size: 100%;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	background-repeat: no-repeat;
+	overflow: hidden;
+
+}
+
+.section {
+
+	position: relative;
+	min-height: 100%;
+
+}
+
+
+.section-content {
+
+	background-color:transparent;
+	font-size:25px;
+	color: #101010;
+}
+
+div.section-content h2  {
+
+	position: relative;
+	text-align: left;
+	padding-left: 50px;
+	display: inline-block;
+
+}
+
+div.section-content p {
+
+	display: inline-block;
+	text-align: right;
+
+}
+
+div.section-content-left {
+	
+	width: 30%;
+	height: 100%;
+	float: left;
+	position: relative;
+	left: 25px;
+	top: 120px;
+
+}
+
+div.section-content-right {
+
+	width: 70%;
+	height: 100%;
+	float: right;
+	position: relative;
+
+}
+
+div.section-content-right p {
+
+	font-family: Helvetica;
+	line-height: 1.8em;
+	font-size: 20px;
+	font-weight: 100;
+	color: rgba(26,26,26,.6);
+	position:relative;
+	top: 125px;
+
+}
+
+div.section-content-right h4 {
+
+	top: 100px;
+	font-family: Helvetica;
+	line-height: 1.8em;
+	font-weight: 600;
+	color: rgba(26,26,26,.9);
+	position: relative;
+	top: 125px;
+	font-size: 22px;
+
+}
+
+div.section-content-right li {
+	position: relative;
+	top:125px;
+	font-family: Helvetica;
+	line-height: 1.8em;
+	font-weight: 100;
+	color: rgba(26,26,26,.6);
+	font-size: 22px;
+
+}
+
+div.section-content-left h2 {
+
+	font-family: Helvetica;
+	line-height: 1.8em;
+	font-weight: 100;
+	color: rgba(26,26,26,.9);
+	font-size: 30px;
+
+}
+
+div#profile-photo img {
+	
+	position: absolute;
+	width: 304px;
+	height: 228px;
+	border-radius: 100%;
+	top: 65px;
+
+}
+
