@@ -74,8 +74,7 @@ div.section-content-left {
 	height: 100%;
 	float: left;
 	position: relative;
-	left: 25px;
-	top: 120px;
+
 
 }
 
@@ -96,26 +95,25 @@ div.section-content-right p {
 	font-weight: 100;
 	color: rgba(26,26,26,.6);
 	position:relative;
-	top: 125px;
+	width: 750px;
+
 
 }
 
 div.section-content-right h4 {
 
-	top: 100px;
 	font-family: Helvetica;
 	line-height: 1.8em;
 	font-weight: 600;
 	color: rgba(26,26,26,.9);
 	position: relative;
-	top: 125px;
 	font-size: 22px;
 
 }
 
 div.section-content-right li {
 	position: relative;
-	top:125px;
+
 	font-family: Helvetica;
 	line-height: 1.8em;
 	font-weight: 100;
@@ -131,6 +129,7 @@ div.section-content-left h2 {
 	font-weight: 100;
 	color: rgba(26,26,26,.9);
 	font-size: 30px;
+	padding-left: 40px;
 
 }
 

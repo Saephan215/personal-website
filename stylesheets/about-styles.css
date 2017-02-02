@@ -2,9 +2,9 @@
 	
 	background: url("../images/about-me.jpg");
 	background-size: 100% 100%;
+	background: no-repeat center center cover;
 	height: 100%;
 	width: 100%;
-	background: no-repeat center center cover;
 
 }
 
@@ -12,10 +12,10 @@
 /* A section for fun facts*/
 .fun-fact-section {
 
-	background-color: #dcdcdc;
 	position: relative;
+	background-color: #dcdcdc;
 	border-style: none; /*fix white line on top */
-	height: 50%;
+	height: 60%;
 
 }
 
@@ -36,6 +36,7 @@ div.fun-fact-section p {
 
 	color: rgba(26,26,26,.6);
 	text-align: center;
+	vertical-align: middle;
 	line-height: 1.8em;
 	font-size: 20px;
 	font-family: Helvetica;
@@ -75,7 +76,7 @@ span.about-header h1 {
 .personality-section {
 
 	position: relative;
-	min-height: 60%;
+	min-height: 70%;
 
 }
 
@@ -100,25 +101,43 @@ div.about-section-content-right {
 
 div.about-section-content-right p {
 
+	position:relative;
 	font-family: Helvetica;
 	line-height: 1.8em;
 	font-size: 20px;
 	font-weight: 100;
 	color: rgba(26,26,26,.6);
-	position:relative;
+	width:750px;
+
 
 }
 
 div.about-section-content-right h4 {
 
-	top: 100px;
+	position: relative;
 	font-family: Helvetica;
 	line-height: 1.8em;
 	font-weight: 600;
 	color: rgba(26,26,26,.9);
-	position: relative;
-	top: 125px;
 
+
+}
+
+.about-nav-border{
+
+	border: 1px solid;
+	border-color: #dbdbdb;
+	border-radius: 5px;
+	margin: 0;
+	padding:10px 20px 10px 20px;
+	    box-shadow: 0px 0px 0px 1px #eee;
+
+
+}
+
+.about-nav-border:hover {
+
+	border-color: #fff;
 }
 
 
